@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>animate-extend</title>
+	<style>
+	#div1{ width:100px; height:100px; background:red;}
+	</style>
+	<script src="../jquery-3.3.1.js"></script>
+	<script src="../jquery-animate-extend.js"></script>
+</head>
+	
+<body>
+<button>点击</button>
+<div id="div1"></div>
+</body>
+<script>
+	var div1 = $('#div1');
+	div1.click(function(){
+		$(this).animate({
+			width: 300,
+			height: 400
+		}, 2000, 'elasticOut');
+	})
+</script>
+</html>

@@ -1,5 +1,6 @@
-#jquery-animate-extend
+# jquery-animate-extend
 
-##jquery only have two animate style -- 'linear' && 'swing'
+## jquery only have two animate style -- 'linear' && 'swing'
 
-## basic tween.js to add more animate style
+## basic tween.js and jquery.js to add more animate style
+
